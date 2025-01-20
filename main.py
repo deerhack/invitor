@@ -10,7 +10,7 @@ def main():
     #     generator.create(person)
         # print(person.first_name)
     
-    sanjay = Person(uuid=None, first_name="Sanjay",last_name="Pahari",email="paharisanjay10@gmail.com",team=None)
+    person = Person(uuid=None, first_name="John",last_name="Doe",email="john.doe@gmail.com",team=None)
 
     generator.create(sanjay)
 
